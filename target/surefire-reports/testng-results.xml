@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-06T16:24:57 IST" name="Suite" finished-at="2026-01-06T16:25:22 IST" duration-ms="25118">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTestLogin.loginErrorTest()[pri:0, instance:rajeshsalimath.TestCases.ErrorValidationTestLogin@21be3395]" name="loginErrorTest" class="rajeshsalimath.TestCases.ErrorValidationTestLogin"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="ShopSubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:rajeshsalimath.TestCases.ShopSubmitOrderTest@4722ef0c]" name="SubmitOrder" class="rajeshsalimath.TestCases.ShopSubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2026-01-06T16:24:57 IST" name="Submit Order Test" finished-at="2026-01-06T16:25:20 IST" duration-ms="23035">
+      <class name="rajeshsalimath.TestCases.ShopSubmitOrderTest">
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:rajeshsalimath.TestCases.ShopSubmitOrderTest@4722ef0c]" started-at="2026-01-06T16:24:57 IST" name="lauchApplication" finished-at="2026-01-06T16:25:03 IST" duration-ms="5443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:rajeshsalimath.TestCases.ShopSubmitOrderTest@4722ef0c]" started-at="2026-01-06T16:25:03 IST" name="SubmitOrder" data-provider="getData" finished-at="2026-01-06T16:25:08 IST" duration-ms="4765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Madmaxx@10, product=ADIDAS ORIGINAL, email=madmaxx@hotmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rajeshsalimath.TestCases.ShopSubmitOrderTest@4722ef0c]" started-at="2026-01-06T16:25:08 IST" name="tearDown" finished-at="2026-01-06T16:25:08 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:rajeshsalimath.TestCases.ShopSubmitOrderTest@4722ef0c]" started-at="2026-01-06T16:25:08 IST" name="lauchApplication" finished-at="2026-01-06T16:25:11 IST" duration-ms="2667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:rajeshsalimath.TestCases.ShopSubmitOrderTest@4722ef0c]" started-at="2026-01-06T16:25:11 IST" name="SubmitOrder" data-provider="getData" finished-at="2026-01-06T16:25:16 IST" duration-ms="5336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Madmaxx@10, product=iphone 13 pro, email=madmaxx@hotmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rajeshsalimath.TestCases.ShopSubmitOrderTest@4722ef0c]" started-at="2026-01-06T16:25:16 IST" name="tearDown" finished-at="2026-01-06T16:25:16 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:rajeshsalimath.TestCases.ShopSubmitOrderTest@4722ef0c]" started-at="2026-01-06T16:25:16 IST" name="lauchApplication" finished-at="2026-01-06T16:25:19 IST" duration-ms="2714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:rajeshsalimath.TestCases.ShopSubmitOrderTest@4722ef0c]" started-at="2026-01-06T16:25:19 IST" name="OrderHistoryTest" finished-at="2026-01-06T16:25:20 IST" depends-on-methods="rajeshsalimath.TestCases.ShopSubmitOrderTest.SubmitOrder" duration-ms="967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rajeshsalimath.TestCases.ShopSubmitOrderTest@4722ef0c]" started-at="2026-01-06T16:25:20 IST" name="tearDown" finished-at="2026-01-06T16:25:20 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rajeshsalimath.TestCases.ShopSubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2026-01-06T16:24:57 IST" name="Error Validation Test" finished-at="2026-01-06T16:25:22 IST" duration-ms="25118">
+      <class name="rajeshsalimath.TestCases.ErrorValidationTestLogin">
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:rajeshsalimath.TestCases.ErrorValidationTestLogin@21be3395]" started-at="2026-01-06T16:24:57 IST" name="lauchApplication" finished-at="2026-01-06T16:25:02 IST" duration-ms="5172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="loginErrorTest()[pri:0, instance:rajeshsalimath.TestCases.ErrorValidationTestLogin@21be3395]" started-at="2026-01-06T16:25:02 IST" name="loginErrorTest" finished-at="2026-01-06T16:25:03 IST" duration-ms="830" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at rajeshsalimath.TestCases.ErrorValidationTestLogin.loginErrorTest(ErrorValidationTestLogin.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rajeshsalimath.TestCases.ErrorValidationTestLogin@21be3395]" started-at="2026-01-06T16:25:04 IST" name="tearDown" finished-at="2026-01-06T16:25:04 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:rajeshsalimath.TestCases.ErrorValidationTestLogin@21be3395]" started-at="2026-01-06T16:25:04 IST" name="lauchApplication" finished-at="2026-01-06T16:25:07 IST" duration-ms="3406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="productErrorTest()[pri:0, instance:rajeshsalimath.TestCases.ErrorValidationTestLogin@21be3395]" started-at="2026-01-06T16:25:07 IST" name="productErrorTest" finished-at="2026-01-06T16:25:22 IST" duration-ms="14419" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: div.cartSection h3 (tried for 6 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\rajes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53982}, goog:processID: 25468, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53982/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b350f83c8f47f6618bc02684a4bf7e3b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div.cartSection h3 (tried for 6 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\rajes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53982}, goog:processID: 25468, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53982/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b350f83c8f47f6618bc02684a4bf7e3b
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at rajeshsalimath.AbstractComponents.AbstractComponent.waitForElementToAppear(AbstractComponent.java:39)
+at rajeshsalimath.pageobjects.CartPage.verifyCartItem(CartPage.java:50)
+at rajeshsalimath.TestCases.ErrorValidationTestLogin.productErrorTest(ErrorValidationTestLogin.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rajeshsalimath.TestCases.ErrorValidationTestLogin@21be3395]" started-at="2026-01-06T16:25:22 IST" name="tearDown" finished-at="2026-01-06T16:25:22 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rajeshsalimath.TestCases.ErrorValidationTestLogin -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>

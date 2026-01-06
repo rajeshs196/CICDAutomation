@@ -1,0 +1,23 @@
+[
+	{
+		"email": "madmaxx@hotmail.com",
+		"password": "Madmaxx@10",
+		"product": "ADIDAS ORIGINAL"
+	}, 
+	
+	{
+		"email": "madmaxx@hotmail.com",
+		"password": "Madmaxx@10",
+		"product": "iphone 13 pro"
+	}	
+	
+]
+
+/*map.put("email", "madmaxx@hotmail.com"); //key - value pairs
+		map.put("password", "Madmaxx@10");
+		map.put("product", "ADIDAS ORIGINAL");
+		
+		HashMap<String, String> map1 = new HashMap<String, String>();
+		map1.put("email", "madmaxx@hotmail.com");
+		map1.put("password", "Madmaxx@10");
+		map1.put("product", "iphone 13 pro");*/
