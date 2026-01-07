@@ -20,6 +20,9 @@ public class ShopSubmitOrderTest extends BaseTest
 {
 	String productName = "ADIDAS ORIGINAL";
 	//testing for jenking jobs
+	//testing for jenking jobs 2
+
+
 	@Test(dataProvider = "getData", groups = {"Purchase"})
 	public void SubmitOrder(HashMap<String, String> mapy) throws InterruptedException, IOException 
 	{
