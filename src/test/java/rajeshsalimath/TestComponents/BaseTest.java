@@ -53,17 +53,18 @@ public class BaseTest
 		//get browser value from cmd or properties file
 		String browserName = System.getProperty("browser")!= null ? System.getProperty("browser") : prop.getProperty("browser");
 		
-		if (browserName.equalsIgnoreCase("chromeheadless")) 
-		{
-			ChromeOptions options = new ChromeOptions(); //setup for getting headless chrome browser option
-			WebDriverManager.chromedriver().setup();
-			options.addArguments("--headless=new"); //new flag for Chrome 109+
-			//options.addArguments("--window-size=1920,1080"); //Ensure full-size
-			driver = new ChromeDriver(options);
-			driver.manage().window().maximize();
-			//driver.manage().window().setSize(new Dimension(1440, 900)); //full screen if maximize() doesnt work
-		} 
-		else if(browserName.equalsIgnoreCase("chrome")) 
+//		if (browserName.equalsIgnoreCase("chromeheadless")) 
+//		{
+//			ChromeOptions options = new ChromeOptions(); //setup for getting headless chrome browser option
+//			WebDriverManager.chromedriver().setup();
+//			options.addArguments("--headless=new"); //new flag for Chrome 109+
+//			//options.addArguments("--window-size=1920,1080"); //Ensure full-size
+//			driver = new ChromeDriver(options);
+//			driver.manage().window().maximize();
+//			//driver.manage().window().setSize(new Dimension(1440, 900)); //full screen if maximize() doesnt work
+//		} 
+//		else
+		if(browserName.equalsIgnoreCase("chrome")) 
 		{
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
